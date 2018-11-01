@@ -18,7 +18,7 @@ class Song
   end
 
   def artist_name      #may need a cond. to return nil if no artist, not sure what it returns without right now
-    instance_variable_defined?(self.artist.name) ? self.artist.name : nil
+    instance_variable_defined?(@artist) ? @artist : nil
   end
 
 end
