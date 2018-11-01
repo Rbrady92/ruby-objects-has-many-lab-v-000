@@ -21,4 +21,8 @@ class Author
     Post.all
   end
 
+  def posts
+    @posts
+  end 
+
 end
