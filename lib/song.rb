@@ -6,7 +6,6 @@ class Song
   def initialize(title)
     @title = title
     @@all << self
-    @artist = self.artist.name
   end
 
   def name
@@ -18,7 +17,7 @@ class Song
   end
 
   def artist_name      #may need a cond. to return nil if no artist, not sure what it returns without right now
-    instance_variable_defined?(@artist) ? @artist : nil
+    self.artist.name
   end
 
 end
