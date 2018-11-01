@@ -19,9 +19,9 @@ class Song
   def artist_name      #may need a cond. to return nil if no artist, not sure what it returns without right now
     if defined?(self.artist.name)
       self.artist.name
-    else 
+    else
       nil
-    end 
+    end
   end
 
 end
