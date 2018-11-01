@@ -16,8 +16,8 @@ class Song
     @@all
   end
 
-  def artist_name
+  def artist_name      #may need a cond. to return nil if no artist, not sure what it returns without right now
     self.artist.name
   end
 
-end 
+end
