@@ -20,4 +20,8 @@ class Artist
     Song.all
   end
 
+  def songs
+    @songs
+  end
+
 end
